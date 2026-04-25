@@ -1,0 +1,53 @@
+body {
+  margin: 100px 70px;
+}
+.section-one {
+  background-color: black;
+  color: white;
+  padding: 15px;
+}
+.section-one__contact {
+  background-color: red;
+  border-style: none;
+  border-radius: 10px;
+  padding: 5px 20px;
+}
+.section-three {
+  background-color: blue;
+  width: 200px;
+  height: 300px;
+  border-radius: 15px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 30px;
+}
+.section-three__title {
+  text-align: justify;
+  padding: 10px 0px 0px 15px;
+}
+.section-three__desc {
+  list-style-type: none;
+  text-align: left;
+  padding: 0px 0px 5px 15px;
+}
+.section-four {
+  background-color: red;
+  border-radius: 15px;
+  height: 300px;
+  width: 600px;
+  float: left;
+  padding-left: 35px;
+  margin-bottom: 30px;
+}
+.section-four__title {
+  text-align: left;
+}
+.section-four__desc {
+  padding: 0px;
+}
+.section-five {
+  background-color: black;
+  color: white;
+  clear: both;
+  padding: 15px 0px 15px 15px;
+}

@@ -1,0 +1,32 @@
+body {
+  margin: 100px 70px;
+}
+.section-one {
+  background-color: black;
+  color: white;
+  padding: 5px 0px 15px 15px;
+  margin-bottom: 30px;
+}
+.section-one__home {
+  background-color: red;
+  padding: 10px 30px;
+  border-radius: 5px;
+  color: white;
+}
+.section-two__desc {
+  padding: 10px 30px;
+  background-color: red;
+  color: white;
+  border-style: none;
+  border-radius: 5px;
+}
+.section-two__input {
+  border-style: none;
+  border-bottom: 1px solid;
+}
+.section-three {
+  background-color: black;
+  color: white;
+  padding: 5px 0px 5px 5px;
+  margin-top: 30px;
+}

@@ -1,53 +1,108 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
 body {
-  margin: 100px 70px;
+  font-family: "young serif";
+}
+.container {
+  padding: 50px;
+}
+.section-one,
+.section-two,
+.section-three,
+.section-four,
+.section-five {
+  margin-top: 25px;
+}
+.section-one__role,
+.section-three__desc,
+.section-two__desc,
+.section-four__desc,
+.section-five__desc {
+  margin-top: 10px;
 }
 .section-one {
   background-color: black;
   color: white;
-  padding: 15px;
+  padding: 25px;
+}
+.section-one__role {
+  margin-bottom: 20px;
 }
 .section-one__contact {
-  background-color: red;
-  border-style: none;
-  border-radius: 10px;
   padding: 5px 20px;
+  border-style: none;
+  background-color: red;
+  color: white;
 }
 .section-three {
-  background-color: blue;
-  width: 200px;
-  height: 300px;
-  border-radius: 15px;
-  float: left;
-  margin-right: 10px;
-  margin-bottom: 30px;
+  background-color: rgba(99, 149, 236);
+  display: inline-block;
+  height: 170px;
+  padding: 25px;
+  border-radius: 10px;
+  vertical-align: top;
 }
-.section-three__title {
-  text-align: justify;
-  padding: 10px 0px 0px 15px;
-}
-.section-three__desc {
+.section-three__desc,
+.section-four__desc {
   list-style-type: none;
-  text-align: left;
-  padding: 0px 0px 5px 15px;
 }
 .section-four {
-  background-color: red;
-  border-radius: 15px;
-  height: 300px;
-  width: 600px;
-  float: left;
-  padding-left: 35px;
-  margin-bottom: 30px;
-}
-.section-four__title {
-  text-align: left;
-}
-.section-four__desc {
-  padding: 0px;
+  background-color: orangered;
+  display: inline-block;
+  height: 170px;
+  padding: 25px;
+  border-radius: 10px;
+  vertical-align: top;
 }
 .section-five {
   background-color: black;
+  padding: 15px;
   color: white;
-  clear: both;
-  padding: 15px 0px 15px 15px;
+}
+.section-one__contact,
+.section-one__home {
+  text-decoration: none;
+}
+.section-onec,
+.section-twoc,
+.section-threec {
+  margin-top: 25px;
+}
+.section-onec__role {
+  margin: 10px 0px 20px 0px;
+}
+.section-onec {
+  background-color: black;
+  color: white;
+  padding: 5px 0px 15px 15px;
+  margin-bottom: 30px;
+}
+.section-one__home {
+  padding: 5px 20px;
+  border-style: none;
+  background-color: red;
+  color: white;
+}
+.section-twoc__desc {
+  padding: 10px 30px;
+  background-color: red;
+  color: white;
+  border-style: none;
+  border-radius: 5px;
+}
+.section-twoc__input {
+  border-style: none;
+  border-bottom: 1px solid;
+  height: 50px;
+}
+.section-threec {
+  background-color: black;
+  color: white;
+  padding: 5px 0px 5px 5px;
+  margin-top: 30px;
+}
+.section-five__anc {
+  color: aqua;
 }
